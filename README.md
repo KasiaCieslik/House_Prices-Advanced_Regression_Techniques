@@ -29,12 +29,12 @@ The official metric used (on kaggle and this repo) is the RMSE between the logra
 |    | model                       |    score | feature_engineering   | leaderboard_score   |
 |---:|:----------------------------|---------:|:----------------------|:--------------------|
 |  0 | RandomForestRegressor       | 0.142496 | no                    |                     |
-|  1 | LinearRegression            | 0.153985 | yes                   |                     |
-|  2 | RandomForestRegressor       | 0.142053 | yes                   |                     |
-|  3 | XGBRegressor                | 0.142106 | yes                   |                     |
-|  4 | ElasticNet                  | 0.130227 | yes                   |                     |
-|  5 | VotingRegressor             | 0.12466  | yes                   |                     |
-|  6 | VotingRegressorGridsearched | 0.122292 | yes                   |                     |
+|  1 | LinearRegression            | 0.153985 | yes                   | 0.13748                   |
+|  2 | RandomForestRegressor       | 0.142053 | yes                   | 0.13985                  |
+|  3 | XGBRegressor                | 0.142106 | yes                   | 0.13715                 |
+|  4 | ElasticNet                  | 0.130227 | yes                   | 0.12589                   |
+|  5 | VotingRegressor             | 0.12466  | yes                   | 0.12202                   |
+|  6 | VotingRegressorGridsearched | 0.122292 | yes                   | 0.12176                    |
 
 
 Cross validation scores are aligned with leaderboard scores, this means that a regular KFold validation strategy is good for this problem/competition.
