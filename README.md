@@ -28,7 +28,7 @@ The official metric used (on kaggle and this repo) is the RMSE between the logra
 
 |    | model                       |    score | feature_engineering   | leaderboard_score   |
 |---:|:----------------------------|---------:|:----------------------|:--------------------|
-|  0 | RandomForestRegressor       | 0.142496 | no                    |                     |
+|  0 | RandomForestRegressor       | 0.142496 | no                    | 0.14199                    |
 |  1 | LinearRegression            | 0.153985 | yes                   | 0.13748                   |
 |  2 | RandomForestRegressor       | 0.142053 | yes                   | 0.13985                  |
 |  3 | XGBRegressor                | 0.142106 | yes                   | 0.13715                 |
